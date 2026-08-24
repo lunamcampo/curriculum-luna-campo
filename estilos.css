@@ -1,0 +1,32 @@
+/*CSS DOCUMENT */
+@charset "UTF-8";
+@font-face {
+    font-family: "archivo black";
+    src: url("fuentes/ArchivoBlack-Regular.ttf") format("truetype");
+}
+* {
+    font-family:"nunito sans", sans-serif;
+    color:rgb(56, 53, 56);
+    background-color: rgb(217, 218, 218);
+    text-wrap:balance;
+}
+h1 {
+    font-family:'archivo black', sans-serif;
+    font-size: 3.2rem;
+    color:rgb(55, 41, 245);
+}
+h2 {
+    font-family:'archivo black', sans-serif;
+    color:rgb(56, 53, 56)
+}
+footer {
+    background-color:rgb(55, 41, 245);
+    color:aliceblue;
+}
+h3 {
+    background-color:rgb(55, 41, 245);
+    color:aliceblue;
+}
+h2 {
+    background-color:rgb(201, 199, 199)
+}
