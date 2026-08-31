@@ -23,7 +23,11 @@ h1 {
 
 h2 {
     font-family: 'archivo black', sans-serif;
-    color: rgb(56, 53, 56)
+    color: rgb(56, 53, 56);
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: rgb(201, 199, 199);
+    border-radius: 0 0 10px 10px;
 }
 
 footer {
@@ -46,18 +50,10 @@ h3 {
     border-radius: 10px 10px 0 0;
 }
 
-h2 {
-    padding: 10px 30px;
-    margin: 10px;
-    background-color: rgb(201, 199, 199);
-    border-radius: 0 0 10px 10px;
-}
-
 header {
     display: flex;
     flex-direction: row-reverse;
     padding: 30px;
-    align-content: stretch;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
@@ -65,18 +61,14 @@ header {
 
 #datos-personales {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    align-content: flex-end;
-    flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 #idiomas {
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
-    flex-wrap: nowrap;
     flex-direction: row-reverse;
 }
 
@@ -93,7 +85,6 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: nowrap;
     flex-direction: row-reverse;
 }
 
