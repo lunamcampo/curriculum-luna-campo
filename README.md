@@ -8,5 +8,5 @@ El proyecto fue construido a través de diferentes etapas. Esta entrega represen
 * Flex Box
 * Box Model
 
-##Editor de código utilizado: Visual Studio Code.
+## Editor de código utilizado: Visual Studio Code.
 El diseño y la maquetación fueron realizados en Visual Studio Code. La resolución de pantalla es de 1920 x 1080 píxeles.
