@@ -1,158 +1,336 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <title>Currículum Vitae Luna Campo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Campo Luna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&display=swap');
-    </style>
-    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
-
 </head>
 
 <body>
     <header>
-        <img src="img/milogo.png" alt="mi logo" width="50" height="50">
         <nav>
-            <a href="#introduccion">Sobre mí</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#datos-adicionales">Habilidades</a>
+            <a href="#home" class="activo" aria-current="page">Home</a>
+            <a href="#trabajos">Trabajos</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <img src="img/mifotocv.png" alt="mi foto" width="670" height="460">
-            <article class="hero-texto">
-                 <h1>¡Hola! Soy Luni Campo</h1>
-                 <p>Te invito a conocer mi experiencia laboral, estudios académicos y demás datos relevantes de mi carrera profesional.</p>
-            </article>
-        </section>
-        
-        <section id="introduccion">
-            <article class="datos-personales">
-                <h2>Datos Personales</h2>
-                <ul id="datos-personales-lista"> 
-                    <li><img src="img/icono-fecha.png" alt="icono" width="23" height="23"> <p>28-06-2000</p></li>
-                    <li><img src="img/icono-mail.png" alt="icono" width="23" height="23"> <p>lunamcampo@gmail.com</p></li>
-                    <li><img src="img/icono-wpp.png" alt="icono" width="23" height="23"> <p>11-44721562</p></li>
-                    <li><img src="img/icono-ubi.png" alt="icono" width="23" height="23"> <p>Cañuelas, Buenos Aires</p></li>
-                </ul>
-            </article>
+            <article class="presentacion-gaita">
+                <div class="puntos-cardinales">
+                    <p>(BA, ARG)</p>
+                    <p>35° 03’ S</p>
+                    <p>58° 45’ W</p>
+                </div>
 
-            <article class="sobre-mi">
-                <h2>Sobre mí</h2>
-                <p>Estudiante avanzada de la Licenciatura en DyCV especializada en identidad de marca, diseño editorial y preprensa. Combino el rigor técnico y la organización metodológica con un criterio estético enfocado en resultados. Cuento con experiencia en agencia de MKT habiendo diseñado piezas de alto impacto para clientes en eventos clave como DevConnect Arg.2025 y optimizado la imagen visual de clientes, impulsando el posicionamiento y crecimiento de sus marcas. </p>
-            </article>
-        </section>
+                <div class="gran-titular">
+                    <h1 class="mi-nombre-artistico">
+                        <!-- Línea 1: HEY IT’S -->
+                        <span class="linea-superior">
+                            <span class="texto-bold">HEY</span>
+                            <span class="caja-nodos caja-its">
+                                <img class="nodo-decorativo nodo-izquierdo" src="img/desktop/home/seccion-titular/home-nodos-titular.svg" alt="">
+                                <span class="texto-light">IT’S</span>
+                            </span>
+                        </span>
 
-        <section id="experiencia">
-            <article class="areas-dominio">
-                <h2>Áreas de especialización y dominio</h2>
-                <ul>
-                    <li>Identidad & Branding: Desarrollo de sistemas gráficos de marca, manuales de marca (BrandBooks /
-                        BrandLooks) e identidades integrales.</li>
-                    <li>Diseño Editorial & Publicitario: Diagramación, maquetación, cartelería/pósters, piezas publicitarias y
-                        materiales impresos institucionales.</li>
-                    <li>Preprensa & Producción: Preparación técnica de originales de impresión, gestión de capas, troqueles y
-                        acabados especiales.</li>
-                    <li>Diseño Digital & Multimedia: Piezas gráficas para plataformas digitales, edición de video dinámico y
-                        maquetación web/email.</li>
-                </ul>
-                <img src="img/areas.png" alt="sticker" class="sticker-areas">
-            </article>
+                        <span class="linea-inferior">
+                            <span class="caja-nodos caja-gaita">
+                                <span class="texto-light">GAITA.DG</span>
+                                <img class="nodo-decorativo nodo-derecho" src="img/desktop/home/seccion-titular/home-nodos-titular.svg" alt="">
+                            </span>
+                        </span>
+                    </h1>
 
-            <article class="experiencia-laboral-general">
-                <h2>Experiencia Laboral</h2>
-                <div class="experiencia-laboral">
-                    <div class= "tarjetatrabajouno">
-                        <h3> HABLA AGENCY (2025-2026)</h3>
-                        <h4> Diseñadora Gráfica - Agencia MKT Digital</h4>
-                            <ul>
-                                <li>Desarrollo y estructuración de identidades visuales y manuales de
-                                marca.</li>
-                                <li>Creación de impresos institucionales y preparación de archivos finales para imprenta.</li>
-                                <li>Diseño de piezas de RRSS y edición de video.</li>
-                                <li>Actualización visual de sitios en WordPress y diseño/maquetación de newsletters en Envialo Simple.</li>
-                            </ul>
-                    </div>
-                    
-                    <div class= "tarjetatrabajodos">
-                        <h3> UNLa (2024-2025) </h3>
-                        <h4> Ayudante de Cátedra (Taller I y GDA) </h4>
-                        <ul>
-                            <li>Guiar y acompañar el proceso creativo y la fundamentación técnica/conceptual de los estudiantes en
-                            proyectos de diseño e investigación gráfica.</li>
-                            <li>Colaboración activa en las instancias de corrección de trabajos prácticos, proyectos integradores y evaluaciones.</li>
-                        </ul>
-                    </div>
-
-                    <div class="tarjetatrabajotres">
-                    <h3> MUNICIPALIDAD CAÑUELAS (2021-2022) </h3>
-                    <h4> Diseñadora Gráfica & Comunicación Digital </h4>
-                        <ul> 
-                             <li>Diseño de Comunicación Pública & Cultural: Desarrollo de piezas gráficas, informativas y publicitarias
-                             para eventos y campañas institucionales orientadas a la comunidad.</li>
-                             <li>Gestión de Identidad Digital: Coordinación y diseño visual para plataformas institucionales.</li>
-                        </ul>
-                    </div>
+                    <img class="flecha-titular" src="img/desktop/home/seccion-titular/home-flecha-titular.svg" alt="">
                 </div>
             </article>
         </section>
 
-        <article class="formacion-academica">
-            <h2>Formación académica</h2>
-            <p>LIC. EN DISEÑO Y COMUNICACIÓN VISUAL (UNLa 2023- Presente)</p>
-            <p>BACHILLER EN HUMANIDADES Y CIENCIAS SOCIALES (2015 - 2017)</p>
-            <img src="img/utiles.png" alt="sticker utiles" class="sticker-utiles">
-        </article>
-
-
-        <section id="datos-adicionales">
-            <article class="tarjeta-adicional">
-                <h2>Herramientas</h2>
-                    <ul>
-                        <li>Diseño Gráfico & Editorial: Adobe Photoshop, Adobe Illustrator, Adobe InDesign.</li>
-                        <li>Prototipado: Figma (Nivel Intermedio).</li>
-                        <li>Edición de Video & Motion: CapCut, Opusclip, Adobe Premiere (Básico).</li>
-                        <li>Web & Plataformas: WordPress (Básico), Meta Business Suite, Envialo Simple, Microsoft Office.</li>
-                     </ul>
-            </article>
-
-            <article class="tarjeta-adicional">
-                <h2>Habilidades</h2>
-                    <ul>
-                        <li>Trabajo bajo presión y cumplimiento de plazos.</li>
-                        <li>Creatividad aplicada al diseño editorial, identidad y sistemas gráficos.</li>
-                        <li>Facilidad para aprender e incorporar nuevas herramientas.</li>
-                        <li>Responsabilidad, compromiso y atención al detalle.</li>
+        <section id="sobre-mi">
+            <details id="quien-soy">
+                <summary>
+                    <h2>¿QUIÉN SOY?</h2>
+                    <img class="flecha-cerrado" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable.svg" alt="">
+                    <img class="flecha-abierto" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable-variable.svg" alt="">
+                </summary>
+                <section id="quien-soy-desplegado" class="desplegado">
+                    <article id="info-personal">
+                        <p>Soy <strong>Luna María Campo</strong>, oriunda de Cañuelas, Buenos Aires, y actualmente estudio Diseño y Comunicación Visual en la Universidad Nacional de Lanús. Me gusta mucho el diseño, aunque todavía estoy descubriendo hacia dónde quiero llevarlo.</p>
+                        <p>Me interesan muchas cosas, y a veces eso hace que elegir un camino se vuelva un poquito abrumador. De a poco estoy aprendiendo a verlo desde otro lado: también es lindo tener la curiosidad, entusiasmarse con cosas distintas y seguir teniendo ganas de aprender.</p>
+                        <p>Creo que el diseño siempre estuvo presente de alguna forma, incluso antes de saber qué era<br>lo que significaba esa palabra o de imaginar que podía convertirse en una carrera. Cuando tenía 11 años, pasaba horas haciendo blends y ediciones de famosos para páginas de Facebook.</p>
+                    </article>
+                    <div class="foto-mia">
+                        <img class="parentesis-desplegable" src="img/desktop/home/seccion-sobre-mi/home-desplegable-parentesis.svg" alt="">
+                        <div class="luna-foto-perfil">
+                            <img src="img/desktop/home/seccion-sobre-mi/luna-campo-foto-personal.png" alt="Foto de Luna María Campo">
+                            <p class="me-xoxo">ME XOXO</p>
+                        </div>
+                    </div>
+                </section>
+            </details>
+            <details id="herramientas">
+                <summary>
+                    <h2>HERRAMIENTAS</h2>
+                    <img class="flecha-cerrado" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable.svg" alt="">
+                    <img class="flecha-abierto" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable-variable.svg" alt="">
+                </summary>
+                <section id="herramientas-desplegado" class="desplegado">
+                    <ul class="tarjetas-herramientas">
+                        <li class="herramienta">
+                            <div class="tarjeta herramienta-1">
+                                <p class="numero">01</p>
+                                <h4>ADOBE<br>CREATIVE SUITE</h4>
+                                <p class="etiqueta">INDESIGN, ILLUSTRATOR &amp; PHOTOSHOP</p>
+                            </div>
+                        </li>
+                        <li class="herramienta">
+                            <div class="tarjeta herramienta-2">
+                                <p class="numero">02</p>
+                                <h4>EDICIÓN<br>DE VIDEO</h4>
+                                <p class="etiqueta">CAPCUT &amp; OPUSCLIP</p>
+                            </div>
+                        </li>
+                        <li class="herramienta">
+                            <div class="tarjeta herramienta-3">
+                                <p class="numero">03</p>
+                                <h4>UI/<br>PROTOTIPADO</h4>
+                                <p class="etiqueta">FIGMA &amp; WORDPRESS</p>
+                            </div>
+                        </li>
+                        <li class="herramienta">
+                            <div class="tarjeta herramienta-4">
+                                <p class="numero">04</p>
+                                <h4>PRE-<br>PRENSA</h4>
+                                <p class="etiqueta">ARCHIVOS DE IMPRESIÓN</p>
+                            </div>
+                        </li>
                     </ul>
-            </article>
-
-            <article class="tarjeta-adicional">
-                <h2>Idiomas</h2>
-                <ul>
-                    <li>Español: Nativo</li>
-                    <li>Inglés: Intermedio (lectura y escritura)</li>
-                </ul>
-                <img src="img/asterisco.png" alt="sticker asterisco" class="sticker-idiomas">
-            </article>
-
+                </section>
+            </details>
+            <details id="experiencia">
+                <summary>
+                    <h2>EXPERIENCIA</h2>
+                    <img class="flecha-cerrado" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable.svg" alt="">
+                    <img class="flecha-abierto" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable-variable.svg" alt="">
+                </summary>
+                <section id="experiencia-desplegado" class="desplegado">
+                    <ul class="laboral">
+                        <li class="puestos-laborales">
+                            <div class="puesto puesto-1">
+                                <div class="puesto-info puesto-1-info">
+                                    <h4>DISEÑADORA GRÁFICA<br>AGENCIA DE MKT DIGITAL</h4>
+                                    <h5><strong>habla.agency</strong> (Enero 2025 - Junio 2026)</h5>
+                                </div>
+                                <p><strong>Brandings, desarrollo y/o estructuración de identidades visuales</strong> para marcas de diversos rubros. Creación de piezas publicitarias, folletería, cartelería e impresos institucionales. Diseño de piezas<br>y edición de video multimedia/dinámico para estrategias digitales. Actualización visual de sitios en WordPress y diseño/maquetación de newsletters en Envialo Simple.</p>
+                            </div>
+                        </li>
+                        <li class="puestos-laborales">
+                            <div class="puesto puesto-2">
+                                <div class="puesto-info puesto-2-info">
+                                    <h4>AYUDANTE<br>DE CÁTEDRA</h4>
+                                    <h5><strong>UNLa</strong> (Agosto 2024 - Presente)</h5>
+                                </div>
+                                <p>Guio y acompaño el proceso creativo y la fundamentación técnica y/o conceptual de los estudiantes en diferentes tipos de proyectos de diseño e investigación gráfica. Colaboración activa en aquellas instancias de corrección de trabajos prácticos, esquicios, proyectos integradores y evaluaciones.</p>
+                            </div>
+                        </li>
+                        <li class="puestos-laborales">
+                            <div class="puesto puesto-3">
+                                <div class="puesto-info puesto-3-info">
+                                    <h4>DISEÑADORA<br>GRÁFICA &amp; CM</h4>
+                                    <h5><strong>Municipalidad de Cañuelas</strong> (2021 - 2022)</h5>
+                                </div>
+                                <p>Diseño de comunicación pública y cultural. Desarrollo de piezas gráficas, informativas y publicitarias para eventos y campañas institucionales orientadas a la comunidad. Gestión de Identidad digital, coordinación y diseño visual para todas las plataformas institucionales de la dirección.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </details>
+             <details id="servicios">
+                <summary>
+                    <h2>SERVICIOS</h2>
+                    <img class="flecha-cerrado" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable.svg" alt="">
+                    <img class="flecha-abierto" src="img/desktop/home/seccion-sobre-mi/home-flecha-desplegable-variable.svg" alt="">
+                </summary>
+                <section id="servicios-desplegados" class="desplegado">
+                    <article class="info-servicios">
+                        <div class="que-ofrezco">
+                            <h4>¿EN QUÉ PUEDO AYUDARTE?</h4>
+                        </div>
+                        <ul class="tarjetas-servicios">
+                            <li class="servicio">
+                                <input type="checkbox" id="servicio-1">
+                                <label for="servicio-1" class="tarjeta-servicio">
+                                    <span class="numero">01</span>
+                                    <h4>BRANDING E<br>IDENTIDAD VISUAL</h4>
+                                    <p>BRANDBOOKS, IDENTIDAD<br>BRANDLOOKS, LOGOS<br>&amp; ASSETS</p>
+                                    <svg class="flecha-servicio" width="111" height="111" viewBox="0 0 111 111" aria-hidden="true">
+                                        <path d="M6 6 L102 102 M102.5 6 V102.5 H6" fill="none" stroke="currentColor" stroke-width="17"/>
+                                    </svg>
+                                </label>
+                            </li>
+                            <li class="servicio">
+                                <input type="checkbox" id="servicio-2">
+                                <label for="servicio-2" class="tarjeta-servicio">
+                                    <span class="numero">02</span>
+                                    <h4>DISEÑO PRE PRENSA<br>Y PAPELERÍA</h4>
+                                    <p>EDITORIAL, POSTERS,<br>LIBROS, PACKAGING<br>&amp; CARTELERÍA</p>
+                                    <svg class="flecha-servicio" width="111" height="111" viewBox="0 0 111 111" aria-hidden="true">
+                                        <path d="M6 6 L102 102 M102.5 6 V102.5 H6" fill="none" stroke="currentColor" stroke-width="17"/>
+                                    </svg>
+                                </label>
+                            </li>
+                            <li class="servicio">
+                                <input type="checkbox" id="servicio-3">
+                                <label for="servicio-3" class="tarjeta-servicio">
+                                    <span class="numero">03</span>
+                                    <h4>DISEÑO DIGITAL<br>Y RRSS</h4>
+                                    <p>PIEZAS PARA REDES<br>&amp; EDICIÓN DE VIDEO<br>DINÁMICO</p>
+                                    <svg class="flecha-servicio" width="111" height="111" viewBox="0 0 111 111" aria-hidden="true">
+                                        <path d="M6 6 L102 102 M102.5 6 V102.5 H6" fill="none" stroke="currentColor" stroke-width="17"/>
+                                    </svg>
+                                </label>
+                            </li>
+                            <li class="servicio">
+                                <input type="checkbox" id="servicio-4">
+                                <label for="servicio-4" class="tarjeta-servicio">
+                                    <span class="numero">04</span>
+                                    <h4>DIRECCIÓN<br>DE ARTE</h4>
+                                    <p>ESTRATEGIA CREATIVA<br>&amp; SEGUIMIENTO</p>
+                                    <svg class="flecha-servicio" width="111" height="111" viewBox="0 0 111 111" aria-hidden="true">
+                                        <path d="M6 6 L102 102 M102.5 6 V102.5 H6" fill="none" stroke="currentColor" stroke-width="17"/>
+                                    </svg>
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="boton-servicios">
+                            <p class="pregunta-proyecto">¿Tenés ganas de un proyecto juntos?</p>
+                            <p class="boton-contactame">¡CONTACTAME!</p>
+                        </div>
+                    </article>
+                </section>
+            </details>
         </section>
 
+        <section id="informacion-adicional">
+            <article class="proyectos-destacados">
+                <div class="contenido-proyectos-destacados">
+                    <div class="info-contenido-proyectos-destacados">
+                        <div class="texto-proyectos-destacados">
+                            <div class="titular-proyectos-destacados">
+                                <h4>CONOCÉ ALGUNOS DE MIS<br>PROYECTOS DESTACADOS</h4>
+                                <p>Me interesa investigar, cruzar referencias y experimentar con distintos recursos hasta encontrar una dirección propia. Disfruto del proceso de descubrir qué puede ser una idea y cómo transformarla en algo visual.</p>
+                            </div>
+                            <h5>Branding, Editorial, Posters &amp; más</h5>
+                        </div>
+
+                        <div class="carrusel">
+                            <input type="radio" name="carrusel" id="pagina-1" checked>
+                            <input type="radio" name="carrusel" id="pagina-2">
+
+                            <div class="carrusel-imagenes">
+                                <div class="carrusel-pista">
+                                    <img src="img/desktop/home/seccion-proyectos-destacados/proyecto-destacado-uno.png" alt="Proyecto destacado uno">
+                                    <img src="img/desktop/home/seccion-proyectos-destacados/proyecto-destacado-dos.png" alt="Proyecto destacado dos">
+                                    <img src="img/desktop/home/seccion-proyectos-destacados/proyecto-destacado-tres.png" alt="Proyecto destacado tres">
+                                    <img src="img/desktop/home/seccion-proyectos-destacados/proyecto-destacado-cuatro.png" alt="Proyecto destacado cuatro">
+                                    <img src="img/desktop/home/seccion-proyectos-destacados/proyecto-destacado-cinco.png" alt="Proyecto destacado cinco">
+                                    <img src="img/desktop/home/seccion-proyectos-destacados/proyecto-destacado-seis.png" alt="Proyecto destacado seis">
+                                </div>
+                            </div>
+
+                            <label for="pagina-2" class="carrusel-flecha flecha-siguiente" aria-label="Ver más proyectos">
+                                <svg width="21" height="34" viewBox="0 0 21 34" aria-hidden="true">
+                                    <path d="M2 2 L17 17 L2 32" fill="none" stroke="currentColor" stroke-width="4.5"/>
+                                </svg>
+                            </label>
+                            <label for="pagina-1" class="carrusel-flecha flecha-anterior" aria-label="Volver a los primeros proyectos">
+                                <svg width="21" height="34" viewBox="0 0 21 34" aria-hidden="true">
+                                    <path d="M2 2 L17 17 L2 32" fill="none" stroke="currentColor" stroke-width="4.5"/>
+                                </svg>
+                            </label>
+
+                            <div class="carrusel-puntos">
+                                <label for="pagina-1" class="punto punto-1" aria-label="Página 1"></label>
+                                <label for="pagina-2" class="punto punto-2" aria-label="Página 2"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#trabajos" class="btn-ver-mas">VER MÁS</a>
+                </div>
+            </article>
+        </section>
+
+        <section id="despedida-cierre">
+            <article class="contenido-despedida">
+                <div class="texto-contenido-despedida">
+                    <div class="titular-contenido-despedida">
+                        <h4>SIEMPRE HAY LUGAR<br>PARA NUEVAS IDEAS</h4>
+                        <p>Si llegaste hasta acá, gracias por tomarte el tiempo de conocer un poco de mi trabajo. Me interesa seguir aprendiendo, encontrar nuevos desafíos y cruzarme con personas que permitan explorar otras posibilidades. Si tenés una idea en mente, me encantaría conocerla.</p>
+                    </div>
+                    <h5>¡Gracias!</h5>
+                </div>
+
+                <div class="decoracion-contenido-despedida">
+                    <div class="composicion-firma">
+                        <!-- SVG completo  *(   )  con el hueco del medio para el video -->
+                        <img class="parentesis" src="img/desktop/home/seccion-cierre/home-parentesis-cierre.svg" alt="">
+                        <div class="firma">
+                            <video autoplay loop muted playsinline preload="auto">
+                                <source src="img/desktop/home/seccion-cierre/video-firma-cierre.mp4" type="video/mp4">
+                            </video>
+                            <p class="xoxo">XOXO</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
 
     <footer>
-        <p class="footer-nombre">© 2026 Campo Luna María</p>
-        <ul class="footer-redes">
-            <li><a href="https://www.linkedin.com/in/lunamariacampo" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/gaita.dg/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.behance.net/lunacampo" target="_blank">Behance</a></li>
-        </ul>
+        <div class="footer-web">
+            <div class="footer-datos">
+                <div class="frase">
+                    <p>TRABAJEMOS<br>JUNTOS PARA QUE<br>TU PROYECTO CREZCA</p>
+                    <img src="img/desktop/footer/footer-flecha.svg" alt="">
+                </div>
+                <img class="separador" src="img/desktop/footer/footer-nodos-separadores.svg" alt="">
+                <ul class="datos-contacto">
+                    <li class="contacto">
+                        <img src="img/desktop/footer/footer-icono-mail.svg" alt="Mail">
+                        <p>lunamcampo@gmail.com</p>
+                    </li>
+                    <li class="contacto">
+                        <img src="img/desktop/footer/footer-icono-perfil.svg" alt="Instagram">
+                        <p>@gaita.dg</p>
+                    </li>
+                    <li class="contacto">
+                        <img src="img/desktop/footer/footer-icono-ubicacion.svg" alt="Ubicación">
+                        <p>Buenos Aires, Argentina</p>
+                    </li>
+                    <li class="contacto">
+                        <img src="img/desktop/footer/footer-icono-disponibilidad.svg" alt="Disponibilidad">
+                        <p>Disponibilidad Freelance</p>
+                    </li>
+                </ul>
+                <img class="separador" src="img/desktop/footer/footer-nodos-separadores.svg" alt="">
+                <div class="legales">
+                    <ul class="opciones-legales">
+                        <li class="titulo-legales">CONOCÉ BASES Y CONDICIONES</li>
+                        <li>Política de privacidad</li>
+                        <li>Preguntas frecuentes</li>
+                        <li>Copyright y derechos</li>
+                    </ul>
+                    <img src="img/desktop/footer/footer-asterisco.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-barra"></div>
     </footer>
-
 </body>
-
 </html>
